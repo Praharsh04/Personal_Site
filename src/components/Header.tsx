@@ -11,12 +11,7 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
       <nav className="max-w-4xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <button 
-            onClick={() => scrollToSection('home')}
-            className="text-xl font-semibold text-gray-900 hover:text-gray-600 transition-colors"
-          >
-            Praharsh
-          </button>
+          
           <div className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('about')}

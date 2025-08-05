@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail } from 'lucide-react';
+import { Mail, Twitter } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -34,11 +34,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="flex items-center space-x-3 text-gray-600 hover:text-gray-900 transition-colors group"
           >
-            <img 
-              src="/lovable-uploads/b27e53f9-0788-441c-aa91-465cb12edaff.png" 
-              alt="X (formerly Twitter)" 
-              className="w-6 h-6 group-hover:scale-110 transition-transform"
-            />
+            <Twitter className="w-6 h-6 group-hover:scale-110 transition-transform" />
             <span className="text-lg">@Praharsh52kar</span>
           </a>
         </div>
